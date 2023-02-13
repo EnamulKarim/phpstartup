@@ -42,7 +42,7 @@ $numbers = array( 8, 23, 15, 42, 16, 4 );
 // echo PHP_EOL;
 // =========
 
-// echo $num_string = implode( ",", $numbers );
+// echo $num_string = implode( "*", $numbers );
 
 // echo PHP_EOL;
 // =========
@@ -54,3 +54,15 @@ $numbers = array( 8, 23, 15, 42, 16, 4 );
 // echo PHP_EOL;
 // =========
 // echo in_array( 19, $numbers ); // returns T/F
+
+
+
+//Enamul
+//Display block result
+// print_r($numbers);
+// var_dump($numbers);
+$simp= implode(', ',$numbers );
+echo $simp;
+echo PHP_EOL;
+$iex= explode(',', $ie);
+echo $iex;
